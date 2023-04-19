@@ -32,6 +32,35 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# Red source file
+*.red linguist-detectable=true
+*.red linguist-documentation=false
+*.red linguist-language=Red
+*.reds linguist-detectable=true
+*.reds linguist-documentation=false
+*.reds linguist-language=Red
+*.r linguist-detectable=true
+*.r linguist-documentation=false
+*.r linguist-language=Red
+# WebAssembly source file
+*.wat linguist-detectable=true
+*.wat linguist-documentation=false
+*.wat linguist-language=WebAssembly
+*.wasm linguist-detectable=true
+*.wasm linguist-documentation=false
+*.wasm linguist-language=WebAssembly
+# C source file
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+*.c linguist-language=C
+# C Header source file
+*.h linguist-detectable=true
+*.h linguist-documentation=false
+*.h linguist-language=C
+# VHDL source file
+*.vhdl linguist-detectable=true
+*.vhdl linguist-documentation=false
+*.vhdl linguist-language=VHDL
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -161,10 +190,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Wednesday, April 19th at 3:37 pm PST)
+# Line count (including blank lines and compiler line): 203
+
 # End of script
